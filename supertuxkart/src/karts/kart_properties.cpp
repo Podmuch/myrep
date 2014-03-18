@@ -169,9 +169,6 @@ void KartProperties::copyFrom(const KartProperties *source)
  */
 void KartProperties::load(const std::string &filename, const std::string &node)
 {
-	//separation kart name from path
-	std::string tmp = filename.substr(14, 20);
-	tmp.erase(tmp.length()-9,9);
     // Get the default values from STKConfig. This will also allocate any
     // pointers used in KartProperties
 	copyFrom(&stk_config->getDefaultKartProperties());
@@ -209,36 +206,7 @@ void KartProperties::load(const std::string &filename, const std::string &node)
         Log::error("[KartProperties]", "%s", err.what());
     }
     if(root) delete root;
-	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	//First Idea
-	//New node in stk_config.xml.
-	//Example
-	//Adiumy node it's new nitro node child. There are different 
-	//physics properties for Adiumy kart.
-	if (tmp == "adiumy") {
-		try
-		{
-			root = new XMLNode("../data/stk_config.xml");
-			root = root->getNode("general-kart-defaults");
-			if (!root || root->getName() != "general-kart-defaults")
-			{
-				std::ostringstream msg;
-				msg << "Couldn't load different kart physics '" << "../data/stk_config.xml" <<
-					"': no kart node.";
-				throw std::runtime_error(msg.str());
-			}
-			getAllData(root);
-		}
-		catch (std::exception& err)
-		{
-			Log::error("[KartPhysics]", "Error while parsing KartPhysics '%s':",
-				filename.c_str());
-			Log::error("[KartPhysics]", "%s", err.what());
-		}
-		if (root) delete root;
-	}
-
-
+	
     // Set a default group (that has to happen after init_default and load)
     if(m_groups.size()==0)
         m_groups.push_back(DEFAULT_GROUP_NAME);
@@ -337,67 +305,22 @@ void KartProperties::getAllData(const XMLNode * root)
     root->get("shadow-scale",      &m_shadow_scale     );
     root->get("shadow-x-offset",   &m_shadow_x_offset  );
     root->get("shadow-y-offset",   &m_shadow_y_offset  );
-	////////////////////////////////////////////////////////////////////////////////////
-	//Second Idea
-	//Bonus are different physics properties in kart.xml.
-	//Example
-	//New "Bonus" node in XML
-	//XML is other for each kart. This xml was loading before, so I needn't load many times stk_config.xml
-	if (const XMLNode *bonus = root->getNode("bonus"))
-	{
-		if (m_name == "Beastie") {
-			bonus->get("brake-factor", &m_brake_factor);
-			bonus->get("max-speed-reverse-ratio", &m_max_speed_reverse_ratio);
-			bonus->get("power", &m_engine_power);
-			if (m_engine_power.size() != RaceManager::DIFFICULTY_COUNT)
-			{
-				Log::fatal("[KartProperties]",
-					"Incorrect engine-power specifications for kart '%s'",
-					getIdent().c_str());
-			}
-			bonus->get("max-speed", &m_max_speed);
-			if (m_max_speed.size() != RaceManager::DIFFICULTY_COUNT)
-			{
-				Log::fatal("[KartProperties]",
-					"Incorrect max-speed specifications for kart '%s'",
-					getIdent().c_str());
-			}
-		}
-	}
+	
     if(const XMLNode *dimensions_node = root->getNode("center"))
         dimensions_node->get("gravity-shift", &m_gravity_center_shift);
 
-    if(const XMLNode *nitro_node = root->getNode("nitro"))
-    {
-		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-		//First Idea
-		//I must load and parse many times stk_config.xml (once time for each kart)
-		if (m_name == "Adiumy"){
-			if (const XMLNode *adiumy = root->getNode("nitro")->getNode("Adiumy"))
-			{
-				adiumy->get("consumption", &m_nitro_consumption);
-				adiumy->get("small-container", &m_nitro_small_container);
-				adiumy->get("big-container", &m_nitro_big_container);
-				adiumy->get("max-speed-increase", &m_nitro_max_speed_increase);
-				adiumy->get("engine-force", &m_nitro_engine_force);
-				adiumy->get("duration", &m_nitro_duration);
-				adiumy->get("fade-out-time", &m_nitro_fade_out_time);
-				adiumy->get("max", &m_nitro_max);
-				adiumy->get("min-consumption-time", &m_nitro_min_consumption);
-			}
-		}
-		else {
-			nitro_node->get("consumption", &m_nitro_consumption);
-			nitro_node->get("small-container", &m_nitro_small_container);
-			nitro_node->get("big-container", &m_nitro_big_container);
-			nitro_node->get("max-speed-increase", &m_nitro_max_speed_increase);
-			nitro_node->get("engine-force", &m_nitro_engine_force);
-			nitro_node->get("duration", &m_nitro_duration);
-			nitro_node->get("fade-out-time", &m_nitro_fade_out_time);
-			nitro_node->get("max", &m_nitro_max);
-			nitro_node->get("min-consumption-time", &m_nitro_min_consumption);
-		}
-    }
+	if (const XMLNode *nitro_node = root->getNode("nitro"))
+	{
+		nitro_node->get("consumption", &m_nitro_consumption);
+		nitro_node->get("small-container", &m_nitro_small_container);
+		nitro_node->get("big-container", &m_nitro_big_container);
+		nitro_node->get("max-speed-increase", &m_nitro_max_speed_increase);
+		nitro_node->get("engine-force", &m_nitro_engine_force);
+		nitro_node->get("duration", &m_nitro_duration);
+		nitro_node->get("fade-out-time", &m_nitro_fade_out_time);
+		nitro_node->get("max", &m_nitro_max);
+		nitro_node->get("min-consumption-time", &m_nitro_min_consumption);
+	}
 
     if(const XMLNode *bubble_node = root->getNode("bubblegum"))
     {
@@ -457,7 +380,17 @@ void KartProperties::getAllData(const XMLNode * root)
     {
         turn_node->get("time-full-steer",      &m_time_full_steer     );
         turn_node->get("time-reset-steer",     &m_time_reset_steer    );
-        turn_node->get("turn-radius",          &m_turn_angle_at_speed );
+		//implementation of the XMLNode::get method doesn't allow to override the element 
+		//We must create new element and override old propereties manually
+		if (m_turn_angle_at_speed.size() > 0) {
+			InterpolationArray *tmp_turn_angle_at_speed = new InterpolationArray();
+			turn_node->get("turn-radius", tmp_turn_angle_at_speed);
+			for (unsigned int i = 0; i < m_turn_angle_at_speed.size(); i++){
+				m_turn_angle_at_speed.setY(i, tmp_turn_angle_at_speed->getY(i));
+			}
+			delete tmp_turn_angle_at_speed;
+		}
+		else { turn_node->get("turn-radius", &m_turn_angle_at_speed); }
         // For now store the turn radius in turn angle, the correct
         // value can only be determined later in ::load
     }
