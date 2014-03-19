@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14129"
+   name=""
+   committed-date="2013-09-22T15:56:30.575622Z"
+   url="http://svn.code.sf.net/p/supertuxkart/code/stk-assets/karts/wilber"
+   last-author="deveee"
+   kind="dir"
+   uuid="178a84e3-b1eb-0310-8ba1-8eac791a3b58"
+   repos="http://svn.code.sf.net/p/supertuxkart/code"
+   revision="15196"/>
+<entry
+   committed-rev="14129"
+   name="kart.xml"
+   text-time="2014-03-15T15:37:14.377236Z"
+   committed-date="2013-09-22T15:56:30.575622Z"
+   checksum="c038e2f573f431c482fb3bcff9047baf"
+   last-author="deveee"
+   kind="file"
+   prop-time="2014-03-15T15:37:12.235972Z"/>
+<entry
+   committed-rev="12805"
+   name="wilbericon.png"
+   text-time="2014-03-15T15:37:14.390236Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="63abdcbe7836b578220dca2afda2211d"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:37:12.240971Z"/>
+<entry
+   committed-rev="12805"
+   name="wilber2neu.png"
+   text-time="2014-03-15T15:37:14.411237Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="ea966b91d1898989210ee8a872a25582"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:37:12.479136Z"/>
+<entry
+   committed-rev="12805"
+   name="eye.png"
+   text-time="2014-03-15T15:37:14.429256Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="8ed03b57c36ec84b8e297417b7954f2a"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:37:12.493139Z"/>
+<entry
+   committed-rev="12805"
+   name="wilber.b3dz"
+   text-time="2014-03-15T15:37:14.454253Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="a63b422316f7c7bf7d40b55a53dcb3cc"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:37:14.222413Z"/>
+<entry
+   committed-rev="6759"
+   name="wheel-front-left.b3d"
+   text-time="2014-03-15T15:37:14.461253Z"
+   committed-date="2010-11-29T03:23:18.870177Z"
+   checksum="d5b18fd5355facc3a2fdf93263263ad5"
+   last-author="hikerstk"
+   kind="file"
+   prop-time="2014-03-15T15:37:14.247415Z"/>
+<entry
+   committed-rev="6759"
+   name="wheel-rear-left.b3d"
+   text-time="2014-03-15T15:37:14.467254Z"
+   committed-date="2010-11-29T03:23:18.870177Z"
+   checksum="74b91a14dde99b1008a3f4ff45460032"
+   last-author="hikerstk"
+   kind="file"
+   prop-time="2014-03-15T15:37:14.260416Z"/>
+<entry
+   committed-rev="6759"
+   name="wheel-front-right.b3d"
+   text-time="2014-03-15T15:37:14.473252Z"
+   committed-date="2010-11-29T03:23:18.870177Z"
+   checksum="b0628501e64879c23cd7b351e378d3a1"
+   last-author="hikerstk"
+   kind="file"
+   prop-time="2014-03-15T15:37:14.271414Z"/>
+<entry
+   committed-rev="6759"
+   name="wheel-rear-right.b3d"
+   text-time="2014-03-15T15:37:14.480254Z"
+   committed-date="2010-11-29T03:23:18.870177Z"
+   checksum="ff9dd5e83a445bff8425db772951c01a"
+   last-author="hikerstk"
+   kind="file"
+   prop-time="2014-03-15T15:37:14.283417Z"/>
+<entry
+   committed-rev="12805"
+   name="wilbershadow.png"
+   text-time="2014-03-15T15:37:14.486256Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="9549519c0bb3de4336e53ac0c9d32694"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:37:14.362236Z"/>
+</wc-entries>

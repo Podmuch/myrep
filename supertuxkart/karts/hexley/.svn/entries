@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14129"
+   name=""
+   committed-date="2013-09-22T15:56:30.575622Z"
+   url="http://svn.code.sf.net/p/supertuxkart/code/stk-assets/karts/hexley"
+   last-author="deveee"
+   kind="dir"
+   uuid="178a84e3-b1eb-0310-8ba1-8eac791a3b58"
+   repos="http://svn.code.sf.net/p/supertuxkart/code"
+   revision="15196"/>
+<entry
+   committed-rev="12805"
+   name="hexley.b3dz"
+   text-time="2014-03-15T15:40:08.263099Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="3b1bb275020cad3d73ce2f98b5d65ea1"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:40:07.035438Z"/>
+<entry
+   committed-rev="14129"
+   name="kart.xml"
+   text-time="2014-03-15T15:40:08.270099Z"
+   committed-date="2013-09-22T15:56:30.575622Z"
+   checksum="871a2c1cfd50fba5149f4f36066a0222"
+   last-author="deveee"
+   kind="file"
+   prop-time="2014-03-15T15:40:07.044438Z"/>
+<entry
+   committed-rev="12805"
+   name="hexley2.png"
+   text-time="2014-03-15T15:40:08.307881Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="0ca6773661b424e4d6ddb3f628b5d417"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:40:07.999105Z"/>
+<entry
+   committed-rev="12805"
+   name="hexley_eye.png"
+   text-time="2014-03-15T15:40:08.326164Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="ea6c4309adc6355b99782f6f860fc378"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:40:08.064089Z"/>
+<entry
+   committed-rev="12805"
+   name="hexley2shadow.png"
+   text-time="2014-03-15T15:40:08.333170Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="11161fc2f56053c12e06e38aeeac11a7"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:40:08.076089Z"/>
+<entry
+   committed-rev="6750"
+   name="wheel-front-left.b3d"
+   text-time="2014-03-15T15:40:08.340166Z"
+   committed-date="2010-11-29T00:33:05.189848Z"
+   checksum="c99831537d8bb38efe38d2c463657d08"
+   last-author="hikerstk"
+   kind="file"
+   prop-time="2014-03-15T15:40:08.098092Z"/>
+<entry
+   committed-rev="12805"
+   name="hexleyicon.png"
+   text-time="2014-03-15T15:40:08.347168Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="5b5ea4dac5dd18d8ec70964e856ed0bc"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:40:08.149096Z"/>
+<entry
+   committed-rev="6750"
+   name="wheel-rear-left.b3d"
+   text-time="2014-03-15T15:40:08.354165Z"
+   committed-date="2010-11-29T00:33:05.189848Z"
+   checksum="8c7eb273b0280220ee4e46e19451c979"
+   last-author="hikerstk"
+   kind="file"
+   prop-time="2014-03-15T15:40:08.164141Z"/>
+<entry
+   committed-rev="6750"
+   name="wheel-front-right.b3d"
+   text-time="2014-03-15T15:40:08.361169Z"
+   committed-date="2010-11-29T00:33:05.189848Z"
+   checksum="3b5be32084a775ec690c907dc4159070"
+   last-author="hikerstk"
+   kind="file"
+   prop-time="2014-03-15T15:40:08.176101Z"/>
+<entry
+   committed-rev="6750"
+   name="wheel-rear-right.b3d"
+   text-time="2014-03-15T15:40:08.368169Z"
+   committed-date="2010-11-29T00:33:05.189848Z"
+   checksum="87e5b8a976f3e45c876cc5ce4184f350"
+   last-author="hikerstk"
+   kind="file"
+   prop-time="2014-03-15T15:40:08.253099Z"/>
+</wc-entries>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14129"
+   name=""
+   committed-date="2013-09-22T15:56:30.575622Z"
+   url="http://svn.code.sf.net/p/supertuxkart/code/stk-assets/karts/tux"
+   last-author="deveee"
+   kind="dir"
+   uuid="178a84e3-b1eb-0310-8ba1-8eac791a3b58"
+   repos="http://svn.code.sf.net/p/supertuxkart/code"
+   revision="15196"/>
+<entry
+   committed-rev="12805"
+   name="tux_body.png"
+   text-time="2014-03-15T15:35:33.346019Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="1ebc9385a450a414af0fa387e3591161"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:35:29.921388Z"/>
+<entry
+   committed-rev="12934"
+   name="tux.b3dz"
+   text-time="2014-03-15T15:35:33.403069Z"
+   committed-date="2013-06-23T20:08:56.315575Z"
+   checksum="dd8a5b6953a7e10e8358682d344ac078"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:35:31.373064Z"/>
+<entry
+   committed-rev="3902"
+   name="pass.ogg"
+   text-time="2014-03-15T15:35:33.377066Z"
+   committed-date="2009-08-21T17:28:57.153398Z"
+   checksum="de99d58e1b176369bb5b972ce8536da8"
+   last-author="rforder"
+   kind="file"
+   prop-time="2014-03-15T15:35:30.122847Z"/>
+<entry
+   committed-rev="3892"
+   name="horn.ogg"
+   text-time="2014-03-15T15:35:33.361020Z"
+   committed-date="2009-08-20T03:44:32.587689Z"
+   checksum="f340f89dd66eb6aaabec6b85509e4534"
+   last-author="rforder"
+   kind="file"
+   prop-time="2014-03-15T15:35:29.928387Z"/>
+<entry
+   committed-rev="3902"
+   name="zipper.ogg"
+   text-time="2014-03-15T15:35:33.418035Z"
+   committed-date="2009-08-21T17:28:57.153398Z"
+   checksum="f8004faa4d35ee9f42cdefd80ffe06c2"
+   last-author="rforder"
+   kind="file"
+   prop-time="2014-03-15T15:35:31.416553Z"/>
+<entry
+   committed-rev="12805"
+   name="tuxkart.png"
+   text-time="2014-03-15T15:35:33.437041Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="5722a8fb812148b5a6aacc627062849d"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:35:32.048303Z"/>
+<entry
+   committed-rev="12934"
+   name="wheel-front-left.b3d"
+   text-time="2014-03-15T15:35:33.453038Z"
+   committed-date="2013-06-23T20:08:56.315575Z"
+   checksum="999de32bb3e321ca82b35302902b52bd"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:35:32.092344Z"/>
+<entry
+   committed-rev="12934"
+   name="wheel-rear-left.b3d"
+   text-time="2014-03-15T15:35:33.468034Z"
+   committed-date="2013-06-23T20:08:56.315575Z"
+   checksum="9aba0b49f67932f14670df96b4016f43"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:35:32.371089Z"/>
+<entry
+   committed-rev="3902"
+   name="uh-oh.ogg"
+   text-time="2014-03-15T15:35:33.482037Z"
+   committed-date="2009-08-21T17:28:57.153398Z"
+   checksum="5a5b747c8c126929060be72e736180c9"
+   last-author="rforder"
+   kind="file"
+   prop-time="2014-03-15T15:35:32.434004Z"/>
+<entry
+   committed-rev="12805"
+   name="tuxkartshadow.png"
+   text-time="2014-03-15T15:35:33.476034Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="74c611575054f771e7bc7355a4b41d7f"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:35:32.382083Z"/>
+<entry
+   committed-rev="12805"
+   name="Terminal.png"
+   text-time="2014-03-15T15:35:33.489021Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="319af8ec8d539f1a8f38f113ec32397a"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:35:32.449002Z"/>
+<entry
+   committed-rev="3902"
+   name="goo.ogg"
+   text-time="2014-03-15T15:35:33.495022Z"
+   committed-date="2009-08-21T17:28:57.153398Z"
+   checksum="d66406ebfa2a2066fbedc2962d7c7e2b"
+   last-author="rforder"
+   kind="file"
+   prop-time="2014-03-15T15:35:32.548141Z"/>
+<entry
+   committed-rev="14129"
+   name="kart.xml"
+   text-time="2014-03-15T15:35:33.501035Z"
+   committed-date="2013-09-22T15:56:30.575622Z"
+   checksum="0064b412ff250bc5bb14bc52731c8db0"
+   last-author="deveee"
+   kind="file"
+   prop-time="2014-03-15T15:35:32.569711Z"/>
+<entry
+   committed-rev="3902"
+   name="yeah.ogg"
+   text-time="2014-03-15T15:35:33.507038Z"
+   committed-date="2009-08-21T17:28:57.153398Z"
+   checksum="46b96e174b20f7a0cec1c8e6977a9c17"
+   last-author="rforder"
+   kind="file"
+   prop-time="2014-03-15T15:35:32.699906Z"/>
+<entry
+   committed-rev="3902"
+   name="win.ogg"
+   text-time="2014-03-15T15:35:33.513038Z"
+   committed-date="2009-08-21T17:28:57.153398Z"
+   checksum="9f11386d733837506bac4498acd383c3"
+   last-author="rforder"
+   kind="file"
+   prop-time="2014-03-15T15:35:32.843019Z"/>
+<entry
+   committed-rev="3902"
+   name="explode.ogg"
+   text-time="2014-03-15T15:35:33.519037Z"
+   committed-date="2009-08-21T17:28:57.153398Z"
+   checksum="0771d0dd751cfd398fbda51b54e709e0"
+   last-author="rforder"
+   kind="file"
+   prop-time="2014-03-15T15:35:32.946621Z"/>
+<entry
+   committed-rev="3902"
+   name="crash.ogg"
+   text-time="2014-03-15T15:35:33.526037Z"
+   committed-date="2009-08-21T17:28:57.153398Z"
+   checksum="75400ae80fc09f72e818482ff62595fe"
+   last-author="rforder"
+   kind="file"
+   prop-time="2014-03-15T15:35:33.061004Z"/>
+<entry
+   committed-rev="12934"
+   name="wheel-front-right.b3d"
+   text-time="2014-03-15T15:35:33.534040Z"
+   committed-date="2013-06-23T20:08:56.315575Z"
+   checksum="09c0aeea173a4f2bb1406cf84468d219"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:35:33.167042Z"/>
+<entry
+   committed-rev="12805"
+   name="tuxicon.png"
+   text-time="2014-03-15T15:35:33.540040Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="8418f124a468dc0f14678b27030d4455"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:35:33.180028Z"/>
+<entry
+   committed-rev="12934"
+   name="wheel-rear-right.b3d"
+   text-time="2014-03-15T15:35:33.546039Z"
+   committed-date="2013-06-23T20:08:56.315575Z"
+   checksum="2dddeaeeaa56b8363bc443c60e381536"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:35:33.330185Z"/>
+</wc-entries>

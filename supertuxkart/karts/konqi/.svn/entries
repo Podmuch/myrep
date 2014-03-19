@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14187"
+   name=""
+   committed-date="2013-10-02T16:38:19.389288Z"
+   url="http://svn.code.sf.net/p/supertuxkart/code/stk-assets/karts/konqi"
+   last-author="deveee"
+   kind="dir"
+   uuid="178a84e3-b1eb-0310-8ba1-8eac791a3b58"
+   repos="http://svn.code.sf.net/p/supertuxkart/code"
+   revision="15196"/>
+<entry
+   committed-rev="12525"
+   name="materials.xml"
+   text-time="2014-03-15T15:37:08.184612Z"
+   committed-date="2013-02-23T22:16:33.546566Z"
+   checksum="8a6aeae190c9ff35d71eff24a900fa16"
+   last-author="auria"
+   kind="file"
+   prop-time="2014-03-15T15:35:33.572027Z"/>
+<entry
+   committed-rev="12805"
+   name="konqiV1 shadow.png"
+   text-time="2014-03-15T15:37:08.199599Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="e316032f08b6b4c5735303525971d6a8"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:35:33.575044Z"/>
+<entry
+   committed-rev="12805"
+   name="konqiV2 wheel texture.png"
+   text-time="2014-03-15T15:37:08.219601Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="3168f96b5c755df6a3c79ca5e78be5eb"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:35:33.583045Z"/>
+<entry
+   committed-rev="12805"
+   name="KonqiV1-kartequipmenttexture.png"
+   text-time="2014-03-15T15:37:08.242601Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="c279496b37c13f28fbf0e1239c0c06a7"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:35:33.699363Z"/>
+<entry
+   committed-rev="14187"
+   name="konqi.b3d"
+   text-time="2014-03-15T15:37:08.469629Z"
+   committed-date="2013-10-02T16:38:19.389288Z"
+   checksum="449ad4e62e6a9987ec039d85dfe944b2"
+   last-author="deveee"
+   kind="file"
+   prop-time="2014-03-15T15:37:07.003308Z"/>
+<entry
+   committed-rev="12932"
+   name="wheel-front-left.b3d"
+   text-time="2014-03-15T15:37:08.478630Z"
+   committed-date="2013-06-23T19:46:41.529727Z"
+   checksum="72c2163592cba10a18f74648720c1cae"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:37:07.326591Z"/>
+<entry
+   committed-rev="12805"
+   name="konqiV1-name.png"
+   text-time="2014-03-15T15:37:08.474630Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="d2e838365a0217876b5ad3ab1f0fee44"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:37:07.296320Z"/>
+<entry
+   committed-rev="12932"
+   name="wheel-rear-left.b3d"
+   text-time="2014-03-15T15:37:08.482631Z"
+   committed-date="2013-06-23T19:46:41.529727Z"
+   checksum="8a3b98152a5fb89dc430e84c81451ebd"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:37:07.330585Z"/>
+<entry
+   committed-rev="12805"
+   name="colormap_konqi.jpg"
+   text-time="2014-03-15T15:37:08.488631Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="1cc65ba710a471d439e01146ae5da6cc"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:37:07.849305Z"/>
+<entry
+   committed-rev="14187"
+   name="kart.xml"
+   text-time="2014-03-15T15:37:08.496631Z"
+   committed-date="2013-10-02T16:38:19.389288Z"
+   checksum="cfc085332d71a9c598e8b9d5541bfeba"
+   last-author="deveee"
+   kind="file"
+   prop-time="2014-03-15T15:37:07.879323Z"/>
+<entry
+   committed-rev="12525"
+   name="License.txt"
+   text-time="2014-03-15T15:37:08.493632Z"
+   committed-date="2013-02-23T22:16:33.546566Z"
+   checksum="1e8726e36a2ff1411ac068eeafd158c7"
+   last-author="auria"
+   kind="file"
+   prop-time="2014-03-15T15:37:07.869315Z"/>
+<entry
+   committed-rev="12805"
+   name="konqi_kerchief.png"
+   text-time="2014-03-15T15:37:08.501632Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="62bc8ce35c03285c235da4cfb48beac0"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:37:07.891307Z"/>
+<entry
+   committed-rev="12525"
+   name="konqi eye.png"
+   text-time="2014-03-15T15:37:08.505632Z"
+   committed-date="2013-02-23T22:16:33.546566Z"
+   checksum="0dc5efbb67f4e89a5e609fff7d6a0192"
+   last-author="auria"
+   kind="file"
+   prop-time="2014-03-15T15:37:07.966307Z"/>
+<entry
+   committed-rev="12805"
+   name="konqi vehicle texture up1.png"
+   text-time="2014-03-15T15:37:08.509615Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="c5f3b62ce759af6de9ac1ba25bf019af"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:37:08.007759Z"/>
+<entry
+   committed-rev="12805"
+   name="konqi_icon.png"
+   text-time="2014-03-15T15:37:08.513631Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="23c1ed976437aead2e2ccff2c772ecb0"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:37:08.021753Z"/>
+<entry
+   committed-rev="12932"
+   name="wheel-front-right.b3d"
+   text-time="2014-03-15T15:37:08.517633Z"
+   committed-date="2013-06-23T19:46:41.529727Z"
+   checksum="6eaf142c19c3793785c8552712e08c48"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:37:08.044759Z"/>
+<entry
+   committed-rev="12805"
+   name="konqiV1-steertexture.png"
+   text-time="2014-03-15T15:37:08.536458Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="9e58a820e103a7a79c162f1df5c05223"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:37:08.140186Z"/>
+<entry
+   committed-rev="12932"
+   name="wheel-rear-right.b3d"
+   text-time="2014-03-15T15:37:08.541458Z"
+   committed-date="2013-06-23T19:46:41.529727Z"
+   checksum="1ef0aeff1d060c15efa85bd470ee7004"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:37:08.169616Z"/>
+</wc-entries>

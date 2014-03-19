@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14361"
+   name=""
+   committed-date="2013-11-02T00:20:48.561529Z"
+   url="http://svn.code.sf.net/p/supertuxkart/code/stk-assets/karts/xfcemouse"
+   last-author="funto66"
+   kind="dir"
+   uuid="178a84e3-b1eb-0310-8ba1-8eac791a3b58"
+   repos="http://svn.code.sf.net/p/supertuxkart/code"
+   revision="15196"/>
+<entry
+   committed-rev="14110"
+   name="skirt.png"
+   text-time="2014-03-15T15:40:06.119338Z"
+   committed-date="2013-09-20T00:22:41.809750Z"
+   checksum="1249a04f4b6687c89d77c7985b83e9b5"
+   last-author="auria"
+   kind="file"
+   prop-time="2014-03-15T15:39:54.955584Z"/>
+<entry
+   committed-rev="14212"
+   name="License.txt"
+   text-time="2014-03-15T15:40:06.128341Z"
+   committed-date="2013-10-05T23:20:57.775293Z"
+   checksum="3c1675ad01bb7644da740505220c3b49"
+   last-author="auria"
+   kind="file"
+   prop-time="2014-03-15T15:39:54.969566Z"/>
+<entry
+   committed-rev="14361"
+   name="kart.xml"
+   text-time="2014-03-15T15:40:06.151460Z"
+   committed-date="2013-11-02T00:20:48.561529Z"
+   checksum="d2a32f2aa6737f0099ff0069eb3ccc1e"
+   last-author="funto66"
+   kind="file"
+   prop-time="2014-03-15T15:39:55.003624Z"/>
+<entry
+   committed-rev="14110"
+   name="materials.xml"
+   text-time="2014-03-15T15:40:06.162678Z"
+   committed-date="2013-09-20T00:22:41.809750Z"
+   checksum="9102a62db3dda70735e16d15817ee0cc"
+   last-author="auria"
+   kind="file"
+   prop-time="2014-03-15T15:39:55.033800Z"/>
+<entry
+   committed-rev="14319"
+   name="hc.propeller.b3d"
+   text-time="2014-03-15T15:40:06.172693Z"
+   committed-date="2013-10-28T10:00:58.725285Z"
+   checksum="16210577fcbd8992e7e9d015a3d2b6a5"
+   last-author="hikerstk"
+   kind="file"
+   prop-time="2014-03-15T15:39:55.115257Z"/>
+<entry
+   committed-rev="14212"
+   name="xfce_icon32.png"
+   text-time="2014-03-15T15:40:06.181694Z"
+   committed-date="2013-10-05T23:20:57.775293Z"
+   checksum="6924c9f3b8b48d14e26bba71a2a28fbe"
+   last-author="auria"
+   kind="file"
+   prop-time="2014-03-15T15:39:55.127262Z"/>
+<entry
+   committed-rev="14110"
+   name="shadow.png"
+   text-time="2014-03-15T15:40:06.190694Z"
+   committed-date="2013-09-20T00:22:41.809750Z"
+   checksum="46d9ee71ca32489ccfa0d9b0d4dc76f6"
+   last-author="auria"
+   kind="file"
+   prop-time="2014-03-15T15:39:55.155274Z"/>
+<entry
+   committed-rev="14319"
+   name="xue.b3d"
+   text-time="2014-03-15T15:40:06.223681Z"
+   committed-date="2013-10-28T10:00:58.725285Z"
+   checksum="003e05084410e276aa5faabb496c8c9d"
+   last-author="hikerstk"
+   kind="file"
+   prop-time="2014-03-15T15:40:04.306569Z"/>
+<entry
+   committed-rev="14110"
+   name="hc_body.png"
+   text-time="2014-03-15T15:40:06.235687Z"
+   committed-date="2013-09-20T00:22:41.809750Z"
+   checksum="9def6d6ee7d7a27ea8e2340d96e1dcb1"
+   last-author="auria"
+   kind="file"
+   prop-time="2014-03-15T15:40:05.613864Z"/>
+<entry
+   committed-rev="14212"
+   name="xfce_icon64.png"
+   text-time="2014-03-15T15:40:06.244682Z"
+   committed-date="2013-10-05T23:20:57.775293Z"
+   checksum="aaa49c23c2339f8d51ecb00c0683396f"
+   last-author="auria"
+   kind="file"
+   prop-time="2014-03-15T15:40:05.712123Z"/>
+<entry
+   committed-rev="14110"
+   name="mouse_texture.png"
+   text-time="2014-03-15T15:40:06.256685Z"
+   committed-date="2013-09-20T00:22:41.809750Z"
+   checksum="534e0d3fd41d432d6c4ad556cbcd53ff"
+   last-author="auria"
+   kind="file"
+   prop-time="2014-03-15T15:40:06.106326Z"/>
+</wc-entries>

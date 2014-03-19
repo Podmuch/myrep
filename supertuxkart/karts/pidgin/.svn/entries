@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14422"
+   name=""
+   committed-date="2013-11-13T20:23:42.108636Z"
+   url="http://svn.code.sf.net/p/supertuxkart/code/stk-assets/karts/pidgin"
+   last-author="deveee"
+   kind="dir"
+   uuid="178a84e3-b1eb-0310-8ba1-8eac791a3b58"
+   repos="http://svn.code.sf.net/p/supertuxkart/code"
+   revision="15196"/>
+<entry
+   committed-rev="14422"
+   name="kart.xml"
+   text-time="2014-03-15T15:40:19.681110Z"
+   committed-date="2013-11-13T20:23:42.108636Z"
+   checksum="85449b34569b9cb470f5665999b8a9db"
+   last-author="deveee"
+   kind="file"
+   prop-time="2014-03-15T15:40:14.961631Z"/>
+<entry
+   committed-rev="9376"
+   name="materials.xml"
+   text-time="2014-03-15T15:40:19.690110Z"
+   committed-date="2011-07-28T02:01:40.325521Z"
+   checksum="3a3619f9ca08fcd66d274d3159dea4f9"
+   last-author="hikerstk"
+   kind="file"
+   prop-time="2014-03-15T15:40:14.964632Z"/>
+<entry
+   committed-rev="12805"
+   name="pidginwheel.png"
+   text-time="2014-03-15T15:40:19.733115Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="d251a80818ec683401d7bd94dc229b99"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:40:14.970624Z"/>
+<entry
+   committed-rev="12805"
+   name="pidginshadow.png"
+   text-time="2014-03-15T15:40:19.744114Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="a8a658ca442d380ab0920507ae8cc588"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:40:15.016292Z"/>
+<entry
+   committed-rev="12805"
+   name="pidginicon.png"
+   text-time="2014-03-15T15:40:19.753117Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="f3bb45fa1d77ff1dbb4630cd46fd2f7a"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:40:15.073454Z"/>
+<entry
+   committed-rev="12923"
+   name="wheel-front-left.b3d"
+   text-time="2014-03-15T15:40:19.763109Z"
+   committed-date="2013-06-23T13:49:48.963386Z"
+   checksum="4481c2450320e27264ed76526d547b92"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:40:15.209054Z"/>
+<entry
+   committed-rev="12923"
+   name="wheel-rear-left.b3d"
+   text-time="2014-03-15T15:40:19.773118Z"
+   committed-date="2013-06-23T13:49:48.963386Z"
+   checksum="e141404e5e9b7bf34905f96dd69ddd7d"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:40:15.334024Z"/>
+<entry
+   committed-rev="14408"
+   name="pidgin.b3dz"
+   text-time="2014-03-15T15:40:19.805927Z"
+   committed-date="2013-11-10T20:30:30.072236Z"
+   checksum="a310a95796d9016d77c566e67ee1cc65"
+   last-author="auria"
+   kind="file"
+   prop-time="2014-03-15T15:40:17.089798Z"/>
+<entry
+   committed-rev="12805"
+   name="pidgin-kart.png"
+   text-time="2014-03-15T15:40:19.819944Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="5be8045d9302f7c566cb5a5024629920"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:40:18.617262Z"/>
+<entry
+   committed-rev="12923"
+   name="wheel-front-right.b3d"
+   text-time="2014-03-15T15:40:19.829930Z"
+   committed-date="2013-06-23T13:49:48.963386Z"
+   checksum="78b2a3667fb0687e6178e7981b9120a9"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:40:18.728712Z"/>
+<entry
+   committed-rev="12805"
+   name="pidgin.png"
+   text-time="2014-03-15T15:40:19.842941Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="650e8f425234f6846b68b0fa31d8e14c"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:40:19.659121Z"/>
+<entry
+   committed-rev="12923"
+   name="wheel-rear-right.b3d"
+   text-time="2014-03-15T15:40:19.852944Z"
+   committed-date="2013-06-23T13:49:48.963386Z"
+   checksum="9b1d9656c34a430472da82338a7c14ed"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:40:19.672111Z"/>
+</wc-entries>

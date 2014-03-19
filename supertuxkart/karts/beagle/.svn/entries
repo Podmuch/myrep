@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14129"
+   name=""
+   committed-date="2013-09-22T15:56:30.575622Z"
+   url="http://svn.code.sf.net/p/supertuxkart/code/stk-assets/karts/beagle"
+   last-author="deveee"
+   kind="dir"
+   uuid="178a84e3-b1eb-0310-8ba1-8eac791a3b58"
+   repos="http://svn.code.sf.net/p/supertuxkart/code"
+   revision="15196"/>
+<entry
+   committed-rev="12929"
+   name="beagle.b3dz"
+   text-time="2014-03-15T15:35:28.340992Z"
+   committed-date="2013-06-23T19:32:21.917592Z"
+   checksum="01fd918b37ff1594ab4057580f33c94d"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:35:27.494643Z"/>
+<entry
+   committed-rev="14129"
+   name="kart.xml"
+   text-time="2014-03-15T15:35:28.346975Z"
+   committed-date="2013-09-22T15:56:30.575622Z"
+   checksum="a0c5d8e43796fcb1b674309f12857e0c"
+   last-author="deveee"
+   kind="file"
+   prop-time="2014-03-15T15:35:27.505641Z"/>
+<entry
+   committed-rev="9376"
+   name="materials.xml"
+   text-time="2014-03-15T15:35:28.383087Z"
+   committed-date="2011-07-28T02:01:40.325521Z"
+   checksum="96c7d56047189073b9a0741fafd68009"
+   last-author="hikerstk"
+   kind="file"
+   prop-time="2014-03-15T15:35:27.805101Z"/>
+<entry
+   committed-rev="12805"
+   name="kart.png"
+   text-time="2014-03-15T15:35:28.394865Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="32f2c2ee84f4e9ca36a31db9f4e4880c"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:35:27.877032Z"/>
+<entry
+   committed-rev="12805"
+   name="beagle_shadow.png"
+   text-time="2014-03-15T15:35:28.401857Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="bb41561e4f3de6b9d99f8143b641e6b2"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:35:28.037091Z"/>
+<entry
+   committed-rev="12929"
+   name="wheel-front-left.b3d"
+   text-time="2014-03-15T15:35:28.408868Z"
+   committed-date="2013-06-23T19:32:21.917592Z"
+   checksum="8cfdd0821416c8af7c95c7b9a3e0ff03"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:35:28.050092Z"/>
+<entry
+   committed-rev="12805"
+   name="beagle_icon.png"
+   text-time="2014-03-15T15:35:28.415868Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="169b813e58f9c32a694ec259529e946d"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:35:28.065090Z"/>
+<entry
+   committed-rev="12929"
+   name="wheel-rear-left.b3d"
+   text-time="2014-03-15T15:35:28.422868Z"
+   committed-date="2013-06-23T19:32:21.917592Z"
+   checksum="ccd215d67a166205cb57b99479842dec"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:35:28.079094Z"/>
+<entry
+   committed-rev="12805"
+   name="dog.png"
+   text-time="2014-03-15T15:35:28.432874Z"
+   committed-date="2013-05-30T11:21:39.279455Z"
+   checksum="0e88c1685e5f41cb5a18b5fa48323605"
+   last-author="curaga"
+   kind="file"
+   prop-time="2014-03-15T15:35:28.172156Z"/>
+<entry
+   committed-rev="12929"
+   name="wheel-front-right.b3d"
+   text-time="2014-03-15T15:35:28.439852Z"
+   committed-date="2013-06-23T19:32:21.917592Z"
+   checksum="c6ffce062c00f0220f3e4a47f5fd2102"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:35:28.198949Z"/>
+<entry
+   committed-rev="12929"
+   name="wheel-rear-right.b3d"
+   text-time="2014-03-15T15:35:28.446871Z"
+   committed-date="2013-06-23T19:32:21.917592Z"
+   checksum="12400dd18718d8a5b2b6f47a4791df15"
+   last-author="samuncle"
+   kind="file"
+   prop-time="2014-03-15T15:35:28.331979Z"/>
+</wc-entries>

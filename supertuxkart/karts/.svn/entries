@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="15105"
+   name=""
+   committed-date="2014-01-25T18:53:15.523272Z"
+   url="http://svn.code.sf.net/p/supertuxkart/code/stk-assets/karts"
+   last-author="samuncle"
+   kind="dir"
+   uuid="178a84e3-b1eb-0310-8ba1-8eac791a3b58"
+   repos="http://svn.code.sf.net/p/supertuxkart/code"
+   prop-time="2014-03-15T15:40:21.444058Z"
+   revision="15196"/>
+<entry
+   name="beagle"
+   kind="dir"/>
+<entry
+   name="tux"
+   kind="dir"/>
+<entry
+   name="elephpant"
+   kind="dir"/>
+<entry
+   name="konqi"
+   kind="dir"/>
+<entry
+   name="nolok"
+   kind="dir"/>
+<entry
+   name="suzanne"
+   kind="dir"/>
+<entry
+   name="wilber"
+   kind="dir"/>
+<entry
+   name="sara"
+   kind="dir"/>
+<entry
+   name="adiumy"
+   kind="dir"/>
+<entry
+   name="puffy"
+   kind="dir"/>
+<entry
+   name="gnu"
+   kind="dir"/>
+<entry
+   name="hexley"
+   kind="dir"/>
+<entry
+   name="xfcemouse"
+   kind="dir"/>
+<entry
+   committed-rev="14408"
+   name="License.txt"
+   text-time="2014-03-15T15:40:21.449043Z"
+   committed-date="2013-11-10T20:30:30.072236Z"
+   checksum="14e92217169b480abe30ca5e154acc58"
+   last-author="auria"
+   kind="file"
+   prop-time="2014-03-15T15:40:08.384169Z"/>
+<entry
+   name="emule"
+   kind="dir"/>
+<entry
+   name="pidgin"
+   kind="dir"/>
+<entry
+   name="beastie"
+   kind="dir"/>
+</wc-entries>
