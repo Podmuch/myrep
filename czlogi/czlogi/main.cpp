@@ -37,7 +37,7 @@ int main()
 			if (event.type == Event::Closed)
 				window.close();
 			if (event.type == Event::KeyPressed){
-				gracz1.ruch(event);
+				gracz1.ruch(event, mapa);
 				if (event.key.code == Keyboard::Space) {
 					int i;
 					for (i = 0; i < 10; i++){

@@ -38,6 +38,7 @@ public:
 		window.draw(shape);
 	}
 	bool kolizja(Mapa &mapa){
+		if (X > 630 || X < 10||Y>390||Y<55) return true;
 		if (mapa.mapa[((Y - 53) * 2) / 25][(X - 7) / 25] == 'X'){
 			mapa.mapa[((Y - 53) * 2) / 25][(X - 7) / 25] = '-';
 			return true;
