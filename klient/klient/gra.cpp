@@ -1,23 +1,34 @@
 #include "gra.h"
 
-Gra::Gra(char * ip)
+Gra::Gra(char * ip, int port)
 {
 	okno = new sf::RenderWindow(sf::VideoMode(520, 520), "Tanks");
 	strcpy(this->ip, ip);
+	this -> port = port;
 	czolg_tekstura.loadFromFile("czolg.jpg");
 	czolg1_tekstura.loadFromFile("czolg1.jpg");
 	czolg2_tekstura.loadFromFile("czolg2.jpg");
 	czolg3_tekstura.loadFromFile("czolg3.jpg");
 	mur_tekstura.loadFromFile("mur.jpg"); 
-	sciana_tekstura.loadFromFile("sciana.jpg");
+	sciana_tekstura3.loadFromFile("sciana.jpg");
+	sciana_tekstura2.loadFromFile("sciana2.jpg");
+	sciana_tekstura1.loadFromFile("sciana1.jpg");
 	pocisk_tekstura.loadFromFile("pocisk.jpg");
 	czolg_obrazek.setTexture(czolg_tekstura);
 	czolg1_obrazek.setTexture(czolg1_tekstura);
 	czolg2_obrazek.setTexture(czolg2_tekstura);
 	czolg3_obrazek.setTexture(czolg3_tekstura);
 	mur_obrazek.setTexture(mur_tekstura);
-	sciana_obrazek.setTexture(sciana_tekstura);
+	sciana_obrazek.setTexture(sciana_tekstura1);
 	pocisk_obrazek.setTexture(pocisk_tekstura);
+	if (this->nowaGra())
+	{
+		printf("\npolaczono.\n Gra zostanie uruchomiona gdy polacza sie pozostali gracze");
+		this->Graj();
+	}
+	else {
+		printf("\nnie udalo sie polaczyc z serwerem");
+	}
 }
 
 bool Gra::nowaGra()
@@ -27,7 +38,11 @@ bool Gra::nowaGra()
 	s = socket(AF_INET, SOCK_STREAM, 0); 
 	memset((void *)(&sa), 0, sizeof(sa)); 
 	sa.sin_family = AF_INET; 
-	sa.sin_port = htons(1337); 
+
+	//int stary_port = 1337;
+	//int nowy_port = 19309;
+
+	sa.sin_port = htons(port); 
 	sa.sin_addr.s_addr = inet_addr(this->ip); 
 	int result; 
 	result = connect(s, (struct sockaddr FAR *) &sa, sizeof(sa)); 
@@ -71,13 +86,22 @@ void Gra::wyswietl()
 			switch(hash[i*MAP_SIZE + j])
 			{
 				case 'm': 
-					this->mur_obrazek.setPosition(i*SZEROKOSC_POLA,j*SZEROKOSC_POLA);
+					this->mur_obrazek.setPosition(j*SZEROKOSC_POLA,i*SZEROKOSC_POLA);
 					okno->draw(this->mur_obrazek);
 					break;
 				case '3':
+					this->sciana_obrazek.setTexture(sciana_tekstura3,true);
+					this->sciana_obrazek.setPosition(j*SZEROKOSC_POLA, i*SZEROKOSC_POLA);
+					okno->draw(this->sciana_obrazek);
+					break;
 				case '2':
+					this->sciana_obrazek.setTexture(sciana_tekstura2, true);
+					this->sciana_obrazek.setPosition(j*SZEROKOSC_POLA, i*SZEROKOSC_POLA);
+					okno->draw(this->sciana_obrazek);
+					break;
 				case '1':
-					this->sciana_obrazek.setPosition(i*SZEROKOSC_POLA,j*SZEROKOSC_POLA);
+					this->sciana_obrazek.setTexture(sciana_tekstura1, true);
+					this->sciana_obrazek.setPosition(j*SZEROKOSC_POLA,i*SZEROKOSC_POLA);
 					okno->draw(this->sciana_obrazek);
 					break;
 			}
@@ -106,6 +130,16 @@ void Gra::wyswietl()
 		default:
 			this->czolg_obrazek.setPosition(x,y);
 			okno->draw(this->czolg_obrazek);
+		}
+	}
+	for(int i = 0; i < ile_graczy * 5; i++, dlug+=4)
+	{
+		int x = hash[dlug] * 256 + (unsigned char)hash[dlug+1]; 
+		int y = hash[dlug+2] * 256 + (unsigned char)hash[dlug+3];
+		if(x > 0)
+		{
+			this->pocisk_obrazek.setPosition(x,y);
+			okno->draw(this->pocisk_obrazek);
 		}
 	}
 }
@@ -142,16 +176,4 @@ void Gra::Graj()
 			this->wyslij(akcja);
 		}
     }
-}
-
-void Gra::wyswietlMenu()
-{
-	int wybor = 1;
-	if(wybor == 1)
-	{
-		if(this->nowaGra())
-		{
-			this->Graj();			
-		}
-	}
 }

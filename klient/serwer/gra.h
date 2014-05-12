@@ -13,7 +13,7 @@ class Gra
 		static const int MAX_LICZBA_GRACZY = 4;
 		static const int SZEROKOSC_POLA = 40;
 		static const int POCZATKOWE_ZYCIE = 5;
-		static const int PREDKOSC_CZOLGU = 1;
+		static const int PREDKOSC_CZOLGU = 2;
 		static const int PREDKOSC_POCISKU = 3;
 		static const int LICZBA_ZYC = 3;
 		static const int LICZBA_POCISKOW = 5;

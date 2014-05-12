@@ -49,6 +49,7 @@ void Gra::start()
 
 void Gra::graj()
 {
+	this->ruchPociskow();
 	for(int i = 0; i < ile_graczy; i++)
 	{
 		this->ruchGracza(i);
@@ -96,9 +97,9 @@ void Gra::hashuj()
 		else
 		{
 			hash[dlug] = 0;
-			hash[dlug+1] = -1;
+			hash[dlug+1] = 0;
 			hash[dlug+2] = 0;
-			hash[dlug+3] = -1;
+			hash[dlug+3] = 0;
 		}
 	}
 	hash[dlug] = '\0';
@@ -150,6 +151,11 @@ void Gra::odbierzOdGracza(int id_gracza)
 
 void Gra::ruchGracza(int id_gracza)
 {
+	if(this->gracze[id_gracza]->czyZniszczono())
+	{
+		this->respGracza(id_gracza);
+	}
+
 	this->gracze[id_gracza]->ruszSie();
 	for(int i = 0; i < MAP_SIZE * MAP_SIZE; i++)
 	{
@@ -179,12 +185,16 @@ void Gra::ruchPociskow()
 		if(this->pociski[i] != NULL)
 		{
 			this->pociski[i]->ruszSie();
+			if(this->pociski[i]->getX1() < 0 || this->pociski[i]->getY1() < 0 
+			|| this->pociski[i]->getX2() > MAP_SIZE*SZEROKOSC_POLA
+			|| this->pociski[i]->getY2() > MAP_SIZE*SZEROKOSC_POLA)
+				this->pociski[i]->setZycie(0);
 			for(int j = 0; j < MAP_SIZE * MAP_SIZE; j++)
 			{
 				if(this->mur[j] != NULL)
-					if(this->pociski[i]->czyKolizja(*this->mur[i]))
+					if(this->pociski[i]->czyKolizja(*this->mur[j]))
 					{
-						this->gracze[i]->setZycie(0);
+						this->pociski[i]->setZycie(0);
 						break;
 					}
 			}
@@ -195,6 +205,11 @@ void Gra::ruchPociskow()
 					{
 						this->pociski[i]->setZycie(0);
 						this->sciany[j]->setZycie(this->sciany[j]->getZycie() - 1);
+						if(this->sciany[j]->czyZniszczono())
+						{
+							delete this->sciany[j];
+							this->sciany[j] = NULL;
+						}
 						break;
 					}
 			}
@@ -256,15 +271,17 @@ void Gra::wczytajMape(char * mapa)
 	for(int i = 0; i < MAP_SIZE; i++)
 	{
 		for(int j = 0; j < MAP_SIZE; j++)
-		switch(mapa[i*MAP_SIZE + j])
+		switch(mapa[j*MAP_SIZE + i])
 		{
 			// MUR
 			case 'm':
-				this->mur[i*MAP_SIZE + j] = new Obiekt(i * SZEROKOSC_POLA, (i+1)*SZEROKOSC_POLA-1, j * SZEROKOSC_POLA, (j+1)*SZEROKOSC_POLA-1);
+				this->mur[j*MAP_SIZE + i] = new Obiekt(i * SZEROKOSC_POLA, (i+1)*SZEROKOSC_POLA-1, j * SZEROKOSC_POLA, (j+1)*SZEROKOSC_POLA-1);
 				break;
 				// SCIANA
-			case 's':
-				this->sciany[i*MAP_SIZE + j] = new Zniszczalny(i * SZEROKOSC_POLA, (i+1)*SZEROKOSC_POLA-1, j * SZEROKOSC_POLA, (j+1)*SZEROKOSC_POLA-1,3);
+			case '1':
+			case '2':
+			case '3':
+				this->sciany[j*MAP_SIZE + i] = new Zniszczalny(i * SZEROKOSC_POLA, (i+1)*SZEROKOSC_POLA-1, j * SZEROKOSC_POLA, (j+1)*SZEROKOSC_POLA-1,mapa[j*MAP_SIZE + i]-48);
 				break;
 		}
 	}
